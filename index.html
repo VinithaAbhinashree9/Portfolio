@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinitha Abhinashree M | AI Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:'Poppins',sans-serif;
+        }
+
+        body{
+            background:#f8fafc;
+            color:#1e293b;
+            line-height:1.6;
+        }
+
+        header{
+            background:linear-gradient(135deg,#a5b4fc,#c4b5fd,#f5d0fe);
+            min-height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            text-align:center;
+            padding:20px;
+        }
+
+        .hero{
+            max-width:900px;
+        }
+
+        .hero img{
+            width:180px;
+            height:180px;
+            border-radius:50%;
+            object-fit:cover;
+            border:5px solid white;
+            margin-bottom:20px;
+            box-shadow:0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        h1{
+            font-size:3rem;
+            margin-bottom:10px;
+        }
+
+        .subtitle{
+            font-size:1.3rem;
+            color:#334155;
+            margin-bottom:20px;
+        }
+
+        .hero p{
+            font-size:1.1rem;
+            max-width:700px;
+            margin:auto;
+        }
+
+        .btn-container{
+            margin-top:30px;
+        }
+
+        .btn{
+            display:inline-block;
+            padding:12px 28px;
+            margin:10px;
+            text-decoration:none;
+            border-radius:30px;
+            background:#4f46e5;
+            color:white;
+            font-weight:600;
+            transition:0.3s;
+        }
+
+        .btn:hover{
+            transform:translateY(-3px);
+        }
+
+        section{
+            padding:80px 10%;
+        }
+
+        .section-title{
+            text-align:center;
+            font-size:2.5rem;
+            margin-bottom:50px;
+            color:#4f46e5;
+        }
+
+        .about{
+            text-align:center;
+            max-width:900px;
+            margin:auto;
+        }
+
+        .skills{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:20px;
+        }
+
+        .skill-card{
+            background:white;
+            padding:25px;
+            border-radius:15px;
+            box-shadow:0 5px 15px rgba(0,0,0,0.08);
+        }
+
+        .skill-card h3{
+            color:#4f46e5;
+            margin-bottom:10px;
+        }
+
+        .projects{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+            gap:25px;
+        }
+
+        .project-card{
+            background:white;
+            border-radius:15px;
+            overflow:hidden;
+            box-shadow:0 5px 15px rgba(0,0,0,0.08);
+            transition:0.3s;
+        }
+
+        .project-card:hover{
+            transform:translateY(-8px);
+        }
+
+        .project-content{
+            padding:20px;
+        }
+
+        .project-content h3{
+            color:#4f46e5;
+            margin-bottom:10px;
+        }
+
+        .education-card,
+        .certificate-card{
+            background:white;
+            padding:25px;
+            margin-bottom:20px;
+            border-radius:15px;
+            box-shadow:0 5px 15px rgba(0,0,0,0.08);
+        }
+
+        .contact{
+            text-align:center;
+        }
+
+        .contact p{
+            margin:10px 0;
+            font-size:1.1rem;
+        }
+
+        footer{
+            text-align:center;
+            padding:25px;
+            background:#1e293b;
+            color:white;
+        }
+
+        @media(max-width:768px){
+            h1{
+                font-size:2.2rem;
+            }
+
+            .subtitle{
+                font-size:1rem;
+            }
+
+            .section-title{
+                font-size:2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <header>
+        <div class="hero">
+
+            <!-- Replace with your image -->
+            <img src="assets/profile.jpg" alt="Profile">
+
+            <h1>Vinitha Abhinashree M</h1>
+
+            <div class="subtitle">
+                AI Trainee | Data Science Enthusiast | Machine Learning Developer
+            </div>
+
+            <p>
+                Passionate about Artificial Intelligence, Machine Learning,
+                Deep Learning, Computer Vision, and Generative AI.
+                Building intelligent solutions that create real-world impact.
+            </p>
+
+            <div class="btn-container">
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="assets/resume.pdf" class="btn">Download Resume</a>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about">
+            <p>
+                I am an AI Trainee at NSTI Bangalore with a strong interest in
+                Artificial Intelligence, Data Science, Machine Learning,
+                Computer Vision, and Full-Stack Development.
+                I completed my Bachelor of Computer Applications (BCA)
+                and am currently pursuing a BS in Data Science and Applications
+                from IIT Madras. My goal is to develop innovative AI-powered
+                solutions that solve real-world challenges.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section>
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills">
+
+            <div class="skill-card">
+                <h3>Programming</h3>
+                <p>Python, SQL, HTML, CSS, JavaScript</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Machine Learning</h3>
+                <p>Scikit-Learn, Deep Learning, Data Analysis</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Computer Vision</h3>
+                <p>OpenCV, TensorFlow, Keras, OCR</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Data Analytics</h3>
+                <p>Power BI, Excel, Power Query, DAX</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Backend Development</h3>
+                <p>Flask, Streamlit, APIs</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Generative AI</h3>
+                <p>LangChain, RAG, LLM Applications</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section>
+        <h2 class="section-title">Education</h2>
+
+        <div class="education-card">
+            <h3>BS in Data Science & Applications</h3>
+            <p>IIT Madras (Pursuing)</p>
+        </div>
+
+        <div class="education-card">
+            <h3>Bachelor of Computer Applications</h3>
+            <p>New Horizon College, Bengaluru</p>
+            <p>Completed - 2025</p>
+        </div>
+
+        <div class="education-card">
+            <h3>AI Trainee Program</h3>
+            <p>NSTI Bangalore</p>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2 class="section-title">Featured Projects</h2>
+
+        <div class="projects">
+
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>AI OCR Character Recognition</h3>
+                    <p>
+                        AI-powered OCR system capable of extracting printed
+                        and handwritten text using Computer Vision techniques.
+                    </p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Handwritten Digit Recognition</h3>
+                    <p>
+                        Deep Learning application that recognizes digits
+                        from uploaded handwritten images.
+                    </p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>DocuMind RAG Chatbot</h3>
+                    <p>
+                        Intelligent document chatbot using LangChain,
+                        Vector Search, and LLMs.
+                    </p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Rice Variety Classification</h3>
+                    <p>
+                        Deep Learning model for classifying rice varieties
+                        using image processing.
+                    </p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Brain Tumor Detection</h3>
+                    <p>
+                        MRI-based brain tumor detection using transfer learning.
+                    </p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Plant Disease Detection</h3>
+                    <p>
+                        AI-powered system for identifying plant diseases from leaf images.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section>
+        <h2 class="section-title">Certifications</h2>
+
+        <div class="certificate-card">
+            Google Cloud Gen AI Exchange Academy
+        </div>
+
+        <div class="certificate-card">
+            IBM Enterprise Grade AI
+        </div>
+
+        <div class="certificate-card">
+            Microsoft AI & Data Analytics Learning Path
+        </div>
+
+        <div class="certificate-card">
+            Hack2Skill Certifications
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact">
+            <p>📧 vinitha.shree9923@gmail.com</p>
+            <p>💻 GitHub: VinithaAbhinashree9</p>
+            <p>🔗 LinkedIn: https://www.linkedin.com/in/vinitha88/</p>
+            <p>📍 Bengaluru, Karnataka, India</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>
+            © 2026 Vinitha Abhinashree M | AI Portfolio
+        </p>
+    </footer>
+
+</body>
+</html>
